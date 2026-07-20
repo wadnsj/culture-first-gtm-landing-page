@@ -86,7 +86,13 @@
       "Bash(/opt/homebrew/bin/gh auth *)",
       "Bash(kill 72157)",
       "Bash(git config *)",
-      "Bash(npm ci *)"
+      "Bash(npm ci *)",
+      "Bash(grep -E \"^\\(package\\\\.json|app/page\\\\.tsx|app/layout\\\\.tsx\\)$\")",
+      "Bash(npx tsc *)",
+      "Bash(curl -s http://localhost:3000 -o /tmp/meta.html -w \"HTTP %{http_code}\\\\n\")",
+      "Bash(curl -s http://localhost:3000 -o /tmp/meta2.html)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
     ]
   }
 }

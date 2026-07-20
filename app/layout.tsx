@@ -10,10 +10,19 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Culture-First GTM System — Win the Right Customers',
+  title: 'The Step-by-Step System for Founders to Win the Right Customers',
   description:
-    'A step-by-step operating system for positioning your product with clarity, becoming the obvious choice, and building sustainable growth. $350 USD, lifetime access.',
-  generator: 'v0.app',
+    'The Step-by-Step System for Founders to Win the Right Customers',
+  openGraph: {
+    title: 'The Step-by-Step System for Founders to Win the Right Customers',
+    description:
+      'The Step-by-Step System for Founders to Win the Right Customers',
+  },
+  twitter: {
+    title: 'The Step-by-Step System for Founders to Win the Right Customers',
+    description:
+      'The Step-by-Step System for Founders to Win the Right Customers',
+  },
 }
 
 export const viewport: Viewport = {

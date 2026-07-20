@@ -95,7 +95,8 @@
       "Bash(git push *)",
       "Bash(curl -s http://localhost:3000 -o /tmp/gl_order.html)",
       "Bash(curl -s http://localhost:3000 -o /tmp/orphan.html)",
-      "Bash(curl -s http://localhost:3000 -o /tmp/hero_new.html -w \"HTTP %{http_code}\\\\n\")"
+      "Bash(curl -s http://localhost:3000 -o /tmp/hero_new.html -w \"HTTP %{http_code}\\\\n\")",
+      "Bash(curl -s http://localhost:3000 -o /tmp/hero_final.html -w \"HTTP %{http_code}\\\\n\")"
     ]
   }
 }

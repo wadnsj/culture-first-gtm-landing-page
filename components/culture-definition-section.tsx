@@ -120,7 +120,7 @@ export function CultureDefinitionSection() {
               <p className="mt-2 text-sm font-bold text-zinc-900">
                 {step.label}
               </p>
-              <p className="mt-1 text-xs leading-relaxed text-zinc-600">
+              <p className="mt-1 text-xs leading-relaxed text-pretty text-zinc-600">
                 {step.description}
               </p>
             </div>

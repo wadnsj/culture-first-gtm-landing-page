@@ -30,7 +30,7 @@ export function Hero() {
             <span className="size-1.5 rounded-full bg-accent" />
             Your strategy&apos;s missing layer
           </span>
-          <h1 className="mt-8 max-w-xl text-5xl leading-[1.05] font-bold tracking-tight text-white md:text-6xl lg:text-7xl">
+          <h1 className="mt-8 max-w-xl text-5xl leading-[1.05] font-bold tracking-tight text-balance text-white md:text-6xl lg:text-7xl">
             <span className="lg:block">Win the right</span>{' '}
             <span className="lg:block">customers with</span>{' '}
             <span className="relative inline-block">
@@ -43,21 +43,18 @@ export function Hero() {
           </h1>
 
           <div className="my-8 max-w-xl border-l-2 border-white/10 py-4 pl-5">
-            <p className="text-2xl leading-snug font-bold text-balance text-zinc-400 md:text-3xl">
-              Most founders chase more customers.
-            </p>
             <p
-              className="mt-1 text-2xl leading-snug font-bold text-balance text-accent md:text-3xl"
+              className="text-2xl leading-snug font-bold text-pretty text-accent md:text-3xl"
               style={{
                 textShadow:
                   '0 0 40px color-mix(in oklch, var(--accent) 55%, transparent)',
               }}
             >
-              The best founders become the obvious choice.
+              Become the obvious choice for the right&nbsp;customers.
             </p>
           </div>
 
-          <p className="max-w-xl text-base leading-relaxed text-zinc-400">
+          <p className="max-w-xl text-base leading-relaxed text-zinc-400 text-pretty">
             Culture shapes what people value, trust, and buy.
           </p>
 

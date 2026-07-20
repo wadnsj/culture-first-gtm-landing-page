@@ -39,13 +39,13 @@ export function InsideBlueprintSection() {
           Inside Your Blueprint
         </span>
         <div className="mt-5 max-w-lg">
-          <p className="text-2xl leading-tight font-bold text-zinc-900 sm:text-3xl">
+          <p className="text-2xl leading-tight font-bold text-balance text-zinc-900 sm:text-3xl">
             One document.
           </p>
-          <p className="text-2xl leading-tight font-bold text-zinc-900 sm:text-3xl">
+          <p className="text-2xl leading-tight font-bold text-balance text-zinc-900 sm:text-3xl">
             Every strategic decision.
           </p>
-          <p className="mt-4 text-base leading-relaxed text-zinc-600">
+          <p className="mt-4 text-base leading-relaxed text-pretty text-zinc-600">
             Everything you&apos;ve built throughout the system comes together
             into one strategic operating plan.
           </p>

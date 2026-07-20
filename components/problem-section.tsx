@@ -64,7 +64,7 @@ function GtmPath({ path }: { path: Path }) {
         ))}
       </div>
       <p
-        className={`mt-5 max-w-[220px] text-center text-xs leading-relaxed italic ${
+        className={`mt-5 max-w-[220px] text-center text-xs leading-relaxed text-pretty italic ${
           signature ? 'text-accent/80' : 'text-zinc-500'
         }`}
       >

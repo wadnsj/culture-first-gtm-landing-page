@@ -65,10 +65,10 @@ export function PricingSection() {
               aria-hidden="true"
             />
             <div>
-              <p className="text-sm font-medium">
+              <p className="text-sm font-medium text-balance">
                 Know Exactly What You&apos;re Buying
               </p>
-              <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
+              <p className="mt-1 text-sm leading-relaxed text-pretty text-muted-foreground">
                 You get immediate access to proprietary videos, templates,
                 frameworks, and worksheets. Because of the digital nature of
                 this product, all sales are final &mdash; if you&apos;re unsure

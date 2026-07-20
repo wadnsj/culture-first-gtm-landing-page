@@ -65,10 +65,10 @@ export function TrustMetricsSection() {
                 <span className="flex size-10 items-center justify-center rounded-full bg-white/5">
                   <Icon className="size-5 text-accent" aria-hidden="true" />
                 </span>
-                <p className="mt-4 text-base leading-snug font-bold text-white">
+                <p className="mt-4 text-base leading-snug font-bold text-balance text-white">
                   {metric.label}
                 </p>
-                <p className="mt-1.5 text-xs leading-relaxed text-zinc-400">
+                <p className="mt-1.5 text-xs leading-relaxed text-pretty text-zinc-400">
                   {metric.detail}
                 </p>
               </div>

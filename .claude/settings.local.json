@@ -93,7 +93,9 @@
       "Bash(curl -s http://localhost:3000 -o /tmp/meta2.html)",
       "Bash(git commit *)",
       "Bash(git push *)",
-      "Bash(curl -s http://localhost:3000 -o /tmp/gl_order.html)"
+      "Bash(curl -s http://localhost:3000 -o /tmp/gl_order.html)",
+      "Bash(curl -s http://localhost:3000 -o /tmp/orphan.html)",
+      "Bash(curl -s http://localhost:3000 -o /tmp/hero_new.html -w \"HTTP %{http_code}\\\\n\")"
     ]
   }
 }

@@ -70,7 +70,7 @@ export function RoadmapSection() {
                   <p className="font-mono text-[10px] tracking-widest text-zinc-400 uppercase">
                     {phase.days}
                   </p>
-                  <p className="text-lg leading-snug font-bold text-zinc-900">
+                  <p className="text-lg leading-snug font-bold text-balance text-zinc-900">
                     {phase.name}
                   </p>
                 </div>
@@ -80,7 +80,7 @@ export function RoadmapSection() {
                 <p className="font-mono text-[10px] font-semibold tracking-widest text-zinc-400 uppercase">
                   Objective
                 </p>
-                <p className="mt-2 text-sm leading-relaxed text-zinc-700">
+                <p className="mt-2 text-sm leading-relaxed text-pretty text-zinc-700">
                   {phase.objective}
                 </p>
               </div>

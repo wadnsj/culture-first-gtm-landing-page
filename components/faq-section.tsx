@@ -60,7 +60,7 @@ function FaqItem({
         aria-expanded={isOpen}
         className="flex w-full items-center justify-between gap-4 py-5 text-left"
       >
-        <span className="text-base font-semibold text-zinc-900">
+        <span className="text-base font-semibold text-balance text-zinc-900">
           {question}
         </span>
         <ChevronDown
@@ -76,7 +76,7 @@ function FaqItem({
         }`}
       >
         <div className="overflow-hidden">
-          <p className="pb-5 text-sm leading-relaxed text-zinc-600">
+          <p className="pb-5 text-sm leading-relaxed text-pretty text-zinc-600">
             {answer}
           </p>
         </div>

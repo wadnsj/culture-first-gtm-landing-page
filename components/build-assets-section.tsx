@@ -242,10 +242,10 @@ function AssetRow({ module, index }: { module: Module; index: number }) {
         >
           Asset 0{index + 1} &mdash; {module.name}
         </span>
-        <h3 className="mt-3 text-2xl leading-snug font-bold tracking-tight text-zinc-900 sm:text-3xl">
+        <h3 className="mt-3 text-2xl leading-snug font-bold tracking-tight text-balance text-zinc-900 sm:text-3xl">
           {module.assetTitle}
         </h3>
-        <p className="mt-3 max-w-md text-sm leading-relaxed text-zinc-600">
+        <p className="mt-3 max-w-md text-sm leading-relaxed text-pretty text-zinc-600">
           {module.handbookPurpose}
         </p>
 

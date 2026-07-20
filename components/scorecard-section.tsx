@@ -42,7 +42,7 @@ export function ScorecardSection() {
         <h2 className="mt-6 max-w-xl text-4xl leading-snug font-bold tracking-tight text-balance text-zinc-900 sm:text-5xl">
           Great founders don&apos;t rely on memory. They rely on systems.
         </h2>
-        <p className="mt-3 max-w-lg text-base leading-relaxed text-zinc-600">
+        <p className="mt-3 max-w-lg text-base leading-relaxed text-pretty text-zinc-600">
           Every quarter you&apos;ll evaluate what&apos;s working, capture new
           customer insights, and improve your Blueprint.
         </p>

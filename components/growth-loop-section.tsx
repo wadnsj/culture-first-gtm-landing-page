@@ -165,7 +165,7 @@ function CalloutCard({ node, align }: { node: Node; align: 'left' | 'right' }) {
         >
           {node.id} &middot; {node.name}
         </span>
-        <p className="mt-1.5 text-xs leading-relaxed text-zinc-400">
+        <p className="mt-1.5 text-xs leading-relaxed text-pretty text-zinc-400">
           {node.body}
         </p>
       </div>

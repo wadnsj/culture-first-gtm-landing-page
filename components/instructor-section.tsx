@@ -31,7 +31,7 @@ export function InstructorSection() {
             <h2 className="max-w-xl text-4xl leading-[1.05] font-bold tracking-tight text-balance md:text-5xl">
               Nearly a decade answering one question.
             </h2>
-            <div className="mt-6 max-w-xl space-y-4 text-base leading-relaxed text-zinc-600">
+            <div className="mt-6 max-w-xl space-y-4 text-base leading-relaxed text-pretty text-zinc-600">
               <p>
                 Hi, I&apos;m Wadnes Castelly. Over the last decade,
                 I&apos;ve helped launch products and build go-to-market

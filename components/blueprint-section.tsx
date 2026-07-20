@@ -166,7 +166,7 @@ function ZonePanel({ zone, index }: { zone: Zone; index: number }) {
               {zone.inputs.map((input) => (
                 <span
                   key={input}
-                  className="rounded-full border border-white/10 px-2 py-0.5 text-[10px] leading-relaxed text-white/60"
+                  className="rounded-full border border-white/10 px-2 py-0.5 text-[10px] leading-relaxed text-pretty text-white/60"
                 >
                   {input}
                 </span>
@@ -193,7 +193,7 @@ function ZonePanel({ zone, index }: { zone: Zone; index: number }) {
             <p className="mb-1.5 font-mono text-[9px] tracking-widest text-white/30 uppercase">
               Decision Produced
             </p>
-            <p className="text-xs leading-relaxed text-white/70 italic">
+            <p className="text-xs leading-relaxed text-pretty text-white/70 italic">
               &ldquo;{zone.decision}&rdquo;
             </p>
           </div>
@@ -439,8 +439,8 @@ export function BlueprintSection() {
               key={benefit.title}
               className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 text-left"
             >
-              <p className="text-sm font-bold text-white">{benefit.title}</p>
-              <p className="mt-1.5 text-xs leading-relaxed text-zinc-400">
+              <p className="text-sm font-bold text-balance text-white">{benefit.title}</p>
+              <p className="mt-1.5 text-xs leading-relaxed text-pretty text-zinc-400">
                 {benefit.detail}
               </p>
             </div>

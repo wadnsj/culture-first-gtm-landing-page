@@ -111,10 +111,10 @@ export function EverythingIncludedSection() {
                     aria-hidden="true"
                   />
                 </span>
-                <h3 className="mt-4 text-base font-bold text-white">
+                <h3 className="mt-4 text-base font-bold text-balance text-white">
                   {feature.name}
                 </h3>
-                <p className="mt-1.5 text-xs leading-relaxed text-zinc-400">
+                <p className="mt-1.5 text-xs leading-relaxed text-pretty text-zinc-400">
                   {feature.description}
                 </p>
               </div>

@@ -10,18 +10,18 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'The Step-by-Step System for Founders to Win the Right Customers',
+  title: 'A Step-by-Step GTM System for Founders So They Win the Right Customers',
   description:
-    'The Step-by-Step System for Founders to Win the Right Customers',
+    'A Step-by-Step GTM System for Founders So They Win the Right Customers',
   openGraph: {
-    title: 'The Step-by-Step System for Founders to Win the Right Customers',
+    title: 'A Step-by-Step GTM System for Founders So They Win the Right Customers',
     description:
-      'The Step-by-Step System for Founders to Win the Right Customers',
+      'A Step-by-Step GTM System for Founders So They Win the Right Customers',
   },
   twitter: {
-    title: 'The Step-by-Step System for Founders to Win the Right Customers',
+    title: 'A Step-by-Step GTM System for Founders So They Win the Right Customers',
     description:
-      'The Step-by-Step System for Founders to Win the Right Customers',
+      'A Step-by-Step GTM System for Founders So They Win the Right Customers',
   },
 }
 

@@ -174,9 +174,6 @@ function CalloutCard({ node, align }: { node: Node; align: 'left' | 'right' }) {
 }
 
 export function GrowthLoopSection() {
-  const left = [NODES[0], NODES[2], NODES[4]]
-  const right = [NODES[1], NODES[3], NODES[5]]
-
   return (
     <section className="relative overflow-hidden border-t border-white/10 bg-[#0A0A0B] px-6 py-24 text-white lg:px-12">
       <div className="mx-auto max-w-3xl text-center">
@@ -193,19 +190,27 @@ export function GrowthLoopSection() {
         </p>
       </div>
 
-      <div className="mx-auto mt-16 grid max-w-6xl items-center gap-8 lg:grid-cols-[1fr_1.1fr_1fr]">
-        <div className="flex flex-col justify-center gap-6">
-          {left.map((node) => (
-            <CalloutCard key={node.id} node={node} align="left" />
-          ))}
+      <div className="mx-auto mt-16 grid max-w-6xl gap-6 lg:grid-cols-[1fr_1.1fr_1fr] lg:items-center lg:gap-8">
+        <div className="order-1 lg:order-none lg:col-start-1 lg:row-start-1">
+          <CalloutCard node={NODES[0]} align="left" />
         </div>
-
-        <CircularDiagram />
-
-        <div className="flex flex-col justify-center gap-6">
-          {right.map((node) => (
-            <CalloutCard key={node.id} node={node} align="right" />
-          ))}
+        <div className="order-2 lg:order-none lg:col-start-3 lg:row-start-1">
+          <CalloutCard node={NODES[1]} align="right" />
+        </div>
+        <div className="order-3 lg:order-none lg:col-start-1 lg:row-start-2">
+          <CalloutCard node={NODES[2]} align="left" />
+        </div>
+        <div className="order-4 lg:order-none lg:col-start-3 lg:row-start-2">
+          <CalloutCard node={NODES[3]} align="right" />
+        </div>
+        <div className="order-5 lg:order-none lg:col-start-1 lg:row-start-3">
+          <CalloutCard node={NODES[4]} align="left" />
+        </div>
+        <div className="order-6 lg:order-none lg:col-start-3 lg:row-start-3">
+          <CalloutCard node={NODES[5]} align="right" />
+        </div>
+        <div className="order-7 my-4 lg:order-none lg:col-start-2 lg:row-span-3 lg:row-start-1 lg:my-0">
+          <CircularDiagram />
         </div>
       </div>
 

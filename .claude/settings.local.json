@@ -77,7 +77,16 @@
       "Bash(curl -s http://localhost:3000 -o /tmp/zpattern.html -w \"HTTP %{http_code}\\\\n\")",
       "Bash(curl -s http://localhost:3000 -o /tmp/stripe.html -w \"HTTP %{http_code}\\\\n\")",
       "Bash(curl -s http://localhost:3000 -o /tmp/stripe2.html -w \"HTTP %{http_code}\\\\n\")",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git remote *)",
+      "Bash(git branch *)",
+      "Bash(gh auth *)",
+      "Bash(brew install *)",
+      "Bash(/opt/homebrew/bin/brew install *)",
+      "Bash(/opt/homebrew/bin/gh auth *)",
+      "Bash(kill 72157)",
+      "Bash(git config *)",
+      "Bash(npm ci *)"
     ]
   }
 }

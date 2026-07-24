@@ -30,7 +30,7 @@ export function Hero() {
             <span className="size-1.5 rounded-full bg-accent" />
             Self-Paced Video Course for Early-Stage Founders
           </span>
-          <h1 className="mt-8 max-w-xl text-3xl leading-tight font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
+          <h1 className="mt-8 max-w-xl text-2xl leading-tight font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
             Build Your Personalized
             <br />
             90-Day Go-to-Market

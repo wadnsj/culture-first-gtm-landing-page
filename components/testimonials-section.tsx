@@ -91,7 +91,8 @@ export function TestimonialsSection() {
           / Testimonials
         </span>
         <h2 className="mt-6 max-w-2xl text-4xl leading-[1.05] font-bold tracking-tight text-balance text-zinc-900 md:text-5xl">
-          Clarity changes how people respond.
+          See how gaining clarity changed the way founders think about
+          growth.
         </h2>
         <p className="mt-5 max-w-2xl leading-relaxed text-pretty text-zinc-600">
           Real feedback from founders, operators, and executives who felt

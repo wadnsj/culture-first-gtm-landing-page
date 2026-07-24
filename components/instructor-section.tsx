@@ -29,8 +29,8 @@ export function InstructorSection() {
 
           <div className="lg:col-span-3">
             <h2 className="max-w-xl text-4xl leading-[1.05] font-bold tracking-tight text-balance md:text-5xl">
-              10+ Years of GTM Execution across TikTok, Spotify, Walmart
-              Connect, and HYPEBEAST.
+              Built on lessons from bringing products to market at TikTok,
+              Spotify, Walmart Connect, and HYPEBEAST.
             </h2>
             <div className="mt-6 max-w-xl space-y-4 text-base leading-relaxed text-pretty text-zinc-600">
               <p>

@@ -18,10 +18,10 @@ export function FinalCta() {
           <h2 className="mt-6 text-5xl leading-[0.98] font-bold tracking-tight text-balance md:text-6xl">
             Start winning <span className="text-zinc-400">the right customers.</span>
           </h2>
-          <p className="mt-8 max-w-xl leading-relaxed text-zinc-400 text-pretty">
-            The best founders don&apos;t build products and hope customers
-            choose them. They understand what customers value first, then
-            build everything else around that understanding.
+          <p className="mt-8 max-w-xl leading-relaxed text-pretty text-zinc-400">
+            Build your personalized 90-day go-to-market strategy and know
+            exactly where to focus your time, energy, and resources to win
+            the right customers.
           </p>
           <div className="mt-10">
             <a

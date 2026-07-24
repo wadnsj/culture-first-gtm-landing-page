@@ -250,10 +250,10 @@ function AssetRow({ module, index }: { module: Module; index: number }) {
           className="font-mono text-xs font-semibold tracking-widest uppercase"
           style={{ color: module.accent }}
         >
-          Module 0{index + 1}: {module.name}
+          {module.name}
         </span>
         <h3 className="mt-3 text-2xl leading-snug font-bold tracking-tight text-balance text-zinc-900 sm:text-3xl">
-          {module.assetTitle}
+          Module {index + 1}: Build Your {module.assetTitle}
         </h3>
         <p className="mt-3 max-w-md text-sm leading-relaxed text-pretty text-zinc-600">
           {module.handbookPurpose}
@@ -308,13 +308,14 @@ export function BuildAssetsSection() {
           / What You&apos;ll Build
         </span>
         <h2 className="mt-6 max-w-2xl text-4xl leading-[1.02] font-bold tracking-tight text-balance text-zinc-900 md:text-5xl">
-          Build a strategic operating system you&apos;ll use every time you
-          launch, grow, or evolve your business.
+          Build every piece of your personalized GTM strategy, one step at
+          a time.
         </h2>
         <p className="mt-5 max-w-xl leading-relaxed text-pretty text-zinc-600">
-          Not five modules to work through in isolation: five strategic
-          assets that compound into a single operating system for winning
-          the right customers.
+          Each module builds a different part of your strategy. By the end
+          of the course, you&apos;ll have a complete go-to-market blueprint
+          you can use to launch, grow, or evolve your business with
+          confidence.
         </p>
 
         <div className="mt-8">

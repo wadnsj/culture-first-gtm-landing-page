@@ -76,7 +76,11 @@ export function PricingSection() {
 
         {/* Price card */}
         <div className="flex flex-col rounded-3xl border border-border bg-card p-8 shadow-xl">
-          <span className="font-mono text-xs tracking-widest text-accent uppercase">
+          <p className="text-base leading-snug font-semibold text-balance text-foreground">
+            Leave with a personalized 90-day GTM strategy you can
+            confidently execute.
+          </p>
+          <span className="mt-6 font-mono text-xs tracking-widest text-accent uppercase">
             / Piece it together yourself
           </span>
           <ul className="mt-6 flex flex-col gap-4">

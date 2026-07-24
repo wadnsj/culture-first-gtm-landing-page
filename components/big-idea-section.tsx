@@ -9,13 +9,15 @@ export function BigIdeaSection() {
           Customers buy based on beliefs and priorities, not just features.
         </h2>
         <p className="mx-auto mt-6 max-w-lg text-lg leading-relaxed text-pretty text-zinc-400">
-          Every purchase decision starts with what people already value,
-          trust, and prioritize.
+          Traditional go-to-market strategy focuses on markets, personas,
+          and channels. Culture-First GTM goes deeper, helping founders
+          understand the beliefs, communities, and motivations that
+          actually shape customer decisions.
         </p>
         <p className="mx-auto mt-4 max-w-lg text-lg leading-relaxed text-pretty text-zinc-400">
-          The Culture-First GTM System turns those insights into
-          positioning, messaging, and a growth strategy customers actually
-          respond to.
+          When you understand what people already value, every
+          go-to-market decision becomes clearer: from positioning and
+          messaging to differentiation and growth.
         </p>
       </div>
     </section>

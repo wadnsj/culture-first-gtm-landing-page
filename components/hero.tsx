@@ -52,8 +52,8 @@ export function Hero() {
             <br />
             <span className="block text-pretty">
               Learn what shapes customer decisions, then build a
-              personalized 90-day go-to-market strategy to win the right
-              customers and drive sustainable growth.
+              personalized GTM strategy so you know exactly where to focus
+              your time, energy, and resources to win the right customers.
             </span>
           </p>
 

@@ -36,7 +36,7 @@ export function Hero() {
             90-Day Go-to-Market
             <br />
             <span className="relative inline-block font-extrabold">
-              <span className="relative z-10">Blueprint</span>
+              <span className="relative z-10">Strategy</span>
               <span
                 aria-hidden="true"
                 className="absolute inset-x-0 bottom-1 z-0 h-4 bg-accent/60"
@@ -45,9 +45,9 @@ export function Hero() {
           </h1>
 
           <p className="mt-8 max-w-xl text-lg leading-relaxed text-pretty text-zinc-400">
-            Stop guessing your growth strategy. Get the step-by-step system
-            to define your positioning, win the right customers, and
-            execute a clear GTM roadmap.
+            Leave with a personalized 90-day Go-to-Market Blueprint you can
+            confidently execute to win the right customers and drive
+            sustainable growth.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-4">

@@ -6,8 +6,7 @@ export function BigIdeaSection() {
           / The Big Idea
         </span>
         <h2 className="mx-auto mt-6 max-w-xl text-4xl leading-[1.05] font-bold text-pretty md:text-5xl">
-          Customers buy based on beliefs and priorities &mdash; not just
-          features.
+          Customers buy based on beliefs and priorities, not just features.
         </h2>
         <p className="mx-auto mt-6 max-w-lg text-lg leading-relaxed text-pretty text-zinc-400">
           Every purchase decision starts with what people already value,

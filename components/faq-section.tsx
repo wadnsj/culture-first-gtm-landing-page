@@ -22,7 +22,7 @@ const FAQS = [
   {
     question: 'What will I have when I finish?',
     answer:
-      'Five completed assets: your Cultural Identity Map, Positioning and Pricing Foundation, Messaging and Narrative Kit, Differentiation Strategy, and Growth Engine and GTM Blueprint — plus a 90-day plan tying them together.',
+      'Five completed assets: your Cultural Identity Map, Positioning and Pricing Foundation, Messaging and Narrative Kit, Differentiation Strategy, and Growth Engine and GTM Blueprint, plus a 90-day plan tying them together.',
   },
   {
     question: 'Does this work for B2B and B2C?',

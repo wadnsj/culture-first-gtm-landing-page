@@ -72,7 +72,7 @@ export function Hero() {
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 rounded-full bg-accent py-3 pr-3 pl-6 text-sm font-semibold text-accent-foreground transition-transform hover:-translate-y-0.5"
             >
-              Get Instant Access &mdash; $350
+              Get Instant Access - $350
               <span className="flex size-8 items-center justify-center rounded-full bg-black/15 text-accent-foreground">
                 <ArrowUpRight className="size-4" aria-hidden="true" />
               </span>

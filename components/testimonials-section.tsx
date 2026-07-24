@@ -12,9 +12,9 @@ const TESTIMONIALS: Testimonial[] = [
     title: 'Executive Organizational Advisor',
     initials: 'JC',
     quote:
-      "{h} They've mastered logic, but lost emotional connection. Culture is the missing bridge between clarity and resonance—and it's the only thing that turns attention into trust.",
+      "{h} They've mastered logic, but lost emotional connection. Culture is the missing bridge between clarity and resonance, and it's the only thing that turns attention into trust.",
     highlight:
-      "Most leaders don't have a growth problem—they have a relevance problem.",
+      "Most leaders don't have a growth problem: they have a relevance problem.",
   },
   {
     name: 'Sachin J.',

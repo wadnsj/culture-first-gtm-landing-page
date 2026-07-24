@@ -173,7 +173,7 @@ function GrowthLoop({ module }: { module: Module }) {
         style={{ backgroundColor: module.accent }}
       />
       <span className="absolute top-3 left-4 font-mono text-[9px] font-semibold tracking-widest text-white/40 uppercase">
-        Growth Loop &mdash; Live System
+        Growth Loop: Live System
       </span>
 
       <div className="absolute inset-0 flex items-center justify-center">
@@ -250,7 +250,7 @@ function AssetRow({ module, index }: { module: Module; index: number }) {
           className="font-mono text-xs font-semibold tracking-widest uppercase"
           style={{ color: module.accent }}
         >
-          Module 0{index + 1} &mdash; {module.name}
+          Module 0{index + 1}: {module.name}
         </span>
         <h3 className="mt-3 text-2xl leading-snug font-bold tracking-tight text-balance text-zinc-900 sm:text-3xl">
           {module.assetTitle}
@@ -312,9 +312,9 @@ export function BuildAssetsSection() {
           launch, grow, or evolve your business.
         </h2>
         <p className="mt-5 max-w-xl leading-relaxed text-pretty text-zinc-600">
-          Not five modules to work through in isolation &mdash; five
-          strategic assets that compound into a single operating system for
-          winning the right customers.
+          Not five modules to work through in isolation: five strategic
+          assets that compound into a single operating system for winning
+          the right customers.
         </p>
 
         <div className="mt-8">

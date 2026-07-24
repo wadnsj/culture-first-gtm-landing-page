@@ -1,8 +1,8 @@
 import { Check } from 'lucide-react'
 
 const OUTCOMES = [
-  'Exactly where to focus first — your beachhead market and positioning',
-  'What to test before you scale — messaging, offer, and channels',
+  'Exactly where to focus first: your beachhead market and positioning',
+  'What to test before you scale: messaging, offer, and channels',
   'A 90-day execution plan you can follow step by step',
   'A repeatable system to revisit every quarter as you grow',
 ]
@@ -18,8 +18,8 @@ export function WhatYoullLeaveWithSection() {
           Your Personalized 90-Day Go-to-Market Blueprint
         </h2>
         <p className="mx-auto mt-6 max-w-lg text-lg leading-relaxed text-pretty text-zinc-600">
-          Not a stack of frameworks to sort through &mdash; one clear plan
-          telling you where to focus, what to test, and how to scale.
+          Not a stack of frameworks to sort through: one clear plan telling
+          you where to focus, what to test, and how to scale.
         </p>
 
         <ul className="mx-auto mt-10 flex max-w-lg flex-col gap-4 text-left">

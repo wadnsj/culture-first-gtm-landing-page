@@ -44,10 +44,12 @@ export function Hero() {
             </span>
           </h1>
 
-          <p className="mt-8 max-w-xl text-lg leading-relaxed text-pretty text-zinc-400">
-            Leave with a personalized 90-day Go-to-Market Blueprint you can
-            confidently execute to win the right customers and drive
-            sustainable growth.
+          <p className="mt-8 max-w-2xl text-lg leading-relaxed text-pretty text-zinc-300">
+            A self-paced video course that helps early-stage founders and
+            first-time entrepreneurs understand what shapes customer
+            decisions, then turn those insights into a personalized
+            strategy they can confidently execute to win the right
+            customers and drive sustainable growth.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-4">

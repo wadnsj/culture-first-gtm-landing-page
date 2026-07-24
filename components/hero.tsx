@@ -31,9 +31,9 @@ export function Hero() {
             Self-Paced Video Course for Early-Stage Founders
           </span>
           <h1 className="mt-8 max-w-xl text-4xl leading-[1.1] font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
-            Build Your Personalized
+            Build Your Personalized{' '}
             <br className="hidden sm:inline" />
-            90-Day Go-to-Market
+            90-Day Go-to-Market{' '}
             <br className="hidden sm:inline" />
             <span className="relative inline-block font-extrabold">
               <span className="relative z-10 text-amber-400">Strategy</span>

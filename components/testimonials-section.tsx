@@ -8,14 +8,6 @@ type Testimonial = {
 
 const TESTIMONIALS: Testimonial[] = [
   {
-    name: 'Quasan L.',
-    title: 'Data Analyst, New York Fed',
-    initials: 'QL',
-    quote:
-      'Great take on the profiling vs mapping concepts, as well as demographics vs culture. {h}, now that I think about it. Insightful!',
-    highlight: 'Many companies fall into this trap',
-  },
-  {
     name: 'Dr. June C.',
     title: 'Executive Organizational Advisor',
     initials: 'JC',
@@ -41,13 +33,6 @@ const TESTIMONIALS: Testimonial[] = [
       "The best automations I've built weren't just optimized for conversion, they were designed to feel human.",
   },
   {
-    name: 'Chandler M.',
-    title: 'CEO, Bootup Studios',
-    initials: 'CM',
-    quote: '{h} This is super helpful boss.',
-    highlight: 'This is major facts – keep dropping gems bro!',
-  },
-  {
     name: 'Paul K.',
     title: 'Strategic Marketing Leader, Zillow Alum',
     initials: 'PK',
@@ -71,14 +56,6 @@ const TESTIMONIALS: Testimonial[] = [
       'Love this framing and the focus on the value rather than the feature. {h} Really love all of your systems thinking content!',
     highlight:
       'This is so key in demonstrating why a user/customer should try a new product!',
-  },
-  {
-    name: 'Marleta R.',
-    title: 'Fintech & Financial Services Executive',
-    initials: 'MR',
-    quote: 'Got my Day 1 email today. I loved it! {h}',
-    highlight:
-      'Even quoted in a convo over dinner - my friend was talking about their business and finding new customers 😊',
   },
 ]
 
@@ -111,14 +88,14 @@ export function TestimonialsSection() {
     <section className="border-t border-zinc-200 bg-[#F9F9FB] px-6 py-24 lg:px-12">
       <div className="mx-auto max-w-6xl">
         <span className="font-mono text-xs tracking-widest text-accent uppercase">
-          / Proof of Resonance
+          / Testimonials
         </span>
         <h2 className="mt-6 max-w-2xl text-4xl leading-[1.05] font-bold tracking-tight text-balance text-zinc-900 md:text-5xl">
-          Overcoming the skeptic.
+          Clarity changes how people respond.
         </h2>
-        <p className="mt-5 max-w-2xl leading-relaxed text-zinc-600 text-pretty">
-          Real feedback from analysts, CMOs, CEOs, and executives who felt
-          the shift from tactics to relevance.
+        <p className="mt-5 max-w-2xl leading-relaxed text-pretty text-zinc-600">
+          Real feedback from founders, operators, and executives who felt
+          the shift from tactics to clear, resonant messaging.
         </p>
 
         <div className="mt-14 grid gap-6 lg:grid-cols-3">

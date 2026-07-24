@@ -10,34 +10,39 @@ const FAQS = [
       'Founders and operators building B2B SaaS, AI, consumer, or service businesses who need customers to understand why their product matters before they choose it.',
   },
   {
-    question: 'Does this work for B2B and B2C?',
-    answer:
-      "Yes. The framework focuses on cultural relevance, which applies whether you're selling to a business buyer or an individual consumer.",
-  },
-  {
-    question: "What if I don't have customers yet?",
+    question: "What if I haven't launched yet?",
     answer:
       "The system works especially well pre-launch, since it helps you define who you're building for and why they'd choose you before you write a line of marketing copy.",
   },
   {
     question: 'How long does it take?',
     answer:
-      "You move through it at your own pace. Most founders build all five core assets in four to six weeks working a few hours a week, though you can move faster or slower.",
+      'You move through it at your own pace. Most founders build all five core assets in four to six weeks working a few hours a week, though you can move faster or slower.',
+  },
+  {
+    question: 'What will I have when I finish?',
+    answer:
+      'Five completed assets: your Cultural Identity Map, Positioning and Pricing Foundation, Messaging and Narrative Kit, Differentiation Strategy, and Growth Engine and GTM Blueprint — plus a 90-day plan tying them together.',
+  },
+  {
+    question: 'Does this work for B2B and B2C?',
+    answer:
+      "Yes. The framework focuses on cultural relevance, which applies whether you're selling to a business buyer or an individual consumer.",
   },
   {
     question: 'Do I get lifetime access?',
     answer:
-      'Yes. One payment gives you lifetime access to every video, template, and framework in the system.',
+      'Yes. One payment gives you lifetime access to every video, template, and framework in the system, including future updates at no extra cost.',
   },
   {
-    question: 'Will I receive future updates?',
+    question: 'What is your refund policy?',
     answer:
-      'Yes. Every new framework, template, or update added to the system in the future is included at no extra cost.',
+      "Because of the digital nature of this product, all sales are final. If you're unsure whether it's right for your business, reach out before enrolling and we'll help you decide.",
   },
   {
-    question: 'Can I use AI alongside this framework?',
+    question: 'What format is the course in?',
     answer:
-      'Yes. Several of the strategic assets include AI prompts you can use to accelerate your own research, drafting, and messaging work.',
+      'A self-paced video course with downloadable templates and practical assignments for each of the five modules, so you build the real assets as you go rather than just watching lessons.',
   },
 ]
 

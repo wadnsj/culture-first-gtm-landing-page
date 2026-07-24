@@ -7,29 +7,24 @@ const lineItems = [
     value: '$2,500',
   },
   {
-    name: 'Customer Understanding System',
-    note: 'Customer research & interviews',
+    name: 'Positioning and Pricing Foundation',
+    note: 'Customer research & positioning strategist',
     value: '$3,000',
   },
   {
-    name: 'Messaging & Narrative Kit',
+    name: 'Messaging and Narrative Kit',
     note: 'Messaging consultant engagement',
     value: '$2,500',
   },
   {
-    name: 'Obvious Choice Toolkit',
+    name: 'Differentiation Strategy',
     note: 'Positioning & differentiation strategist',
     value: '$3,500',
   },
   {
-    name: 'Growth Engine',
+    name: 'Growth Engine and GTM Blueprint',
     note: 'Fractional GTM advisor',
     value: '$3,000',
-  },
-  {
-    name: '11 Strategic Assets & Templates',
-    note: 'Maps, blueprints & worksheets',
-    value: '$1,500',
   },
   {
     name: 'Lifetime Access + Future Updates',

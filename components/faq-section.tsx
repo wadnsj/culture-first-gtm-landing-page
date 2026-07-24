@@ -5,6 +5,11 @@ import { useState } from 'react'
 
 const FAQS = [
   {
+    question: 'How can culture help me win customers?',
+    answer:
+      "Whether you sell to consumers or businesses, every buying decision is made by people. Culture shapes what people value, trust, and choose. By understanding the beliefs, communities, and motivations that influence your ideal customers, you can create positioning, messaging, and a go-to-market strategy that resonates more deeply than one built on demographics or features alone. The goal isn't to market to everyone: it's to become the obvious choice for the right customers.",
+  },
+  {
     question: 'Who is this for?',
     answer:
       'Founders and operators building B2B SaaS, AI, consumer, or service businesses who need customers to understand why their product matters before they choose it.',

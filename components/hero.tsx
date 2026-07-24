@@ -30,13 +30,13 @@ export function Hero() {
             <span className="size-1.5 rounded-full bg-accent" />
             Self-Paced Video Course for Early-Stage Founders
           </span>
-          <h1 className="mt-8 max-w-xl text-2xl leading-tight font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
+          <h1 className="mt-8 max-w-xl text-4xl leading-[1.1] font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
             Build Your Personalized
-            <br />
+            <br className="hidden sm:inline" />
             90-Day Go-to-Market
-            <br />
+            <br className="hidden sm:inline" />
             <span className="relative inline-block font-extrabold">
-              <span className="relative z-10">Strategy</span>
+              <span className="relative z-10 text-amber-400">Strategy</span>
               <span
                 aria-hidden="true"
                 className="absolute inset-x-0 bottom-1 z-0 h-4 bg-accent/60"

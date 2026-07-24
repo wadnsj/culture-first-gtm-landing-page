@@ -30,10 +30,13 @@ export function Hero() {
             <span className="size-1.5 rounded-full bg-accent" />
             Self-Paced Video Course for Early-Stage Founders
           </span>
-          <h1 className="mt-8 max-w-xl text-5xl leading-[1.05] font-bold tracking-tight text-pretty text-white md:text-6xl lg:text-7xl">
-            Build Your Personalized 90-Day{' '}
-            <span className="relative inline-block">
-              <span className="relative z-10">Go-to-Market Blueprint</span>
+          <h1 className="mt-8 max-w-xl text-3xl leading-tight font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
+            Build Your Personalized
+            <br />
+            90-Day Go-to-Market
+            <br />
+            <span className="relative inline-block font-extrabold">
+              <span className="relative z-10">Blueprint</span>
               <span
                 aria-hidden="true"
                 className="absolute inset-x-0 bottom-1 z-0 h-4 bg-accent/60"

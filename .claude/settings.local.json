@@ -99,7 +99,8 @@
       "Bash(curl -s http://localhost:3000 -o /tmp/hero_final.html -w \"HTTP %{http_code}\\\\n\")",
       "Bash(curl -s http://localhost:3000 -o /tmp/meta3.html)",
       "Bash(curl -s http://localhost:3000 -o /tmp/hero_v2.html -w \"HTTP %{http_code}\\\\n\")",
-      "Bash(curl -s http://localhost:3000 -o /tmp/hero_v3.html)"
+      "Bash(curl -s http://localhost:3000 -o /tmp/hero_v3.html)",
+      "Bash(curl -s http://localhost:3000 -o /tmp/h1_3line.html -w \"HTTP %{http_code}\\\\n\")"
     ]
   }
 }

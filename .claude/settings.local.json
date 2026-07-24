@@ -103,7 +103,8 @@
       "Bash(curl -s http://localhost:3000 -o /tmp/h1_3line.html -w \"HTTP %{http_code}\\\\n\")",
       "Bash(curl -s http://localhost:3000 -o /tmp/hero_v4.html -w \"HTTP %{http_code}\\\\n\")",
       "Bash(curl -s http://localhost:3000 -o /tmp/subhead_v3.html -w \"HTTP %{http_code}\\\\n\")",
-      "Bash(curl -s http://localhost:3000 -o /tmp/subhead_v4.html -w \"HTTP %{http_code}\\\\n\")"
+      "Bash(curl -s http://localhost:3000 -o /tmp/subhead_v4.html -w \"HTTP %{http_code}\\\\n\")",
+      "Bash(curl -s http://localhost:3000 -o /tmp/hero_reorder.html -w \"HTTP %{http_code}\\\\n\")"
     ]
   }
 }

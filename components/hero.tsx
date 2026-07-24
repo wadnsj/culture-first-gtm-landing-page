@@ -1,4 +1,4 @@
-import { ArrowUpRight } from 'lucide-react'
+import { ArrowUpRight, Check } from 'lucide-react'
 import Image from 'next/image'
 
 import { TiltCard } from '@/components/tilt-card'
@@ -44,17 +44,28 @@ export function Hero() {
             </span>
           </h1>
 
-          <p className="mt-8 max-w-2xl text-lg leading-relaxed text-pretty text-zinc-300">
-            <strong className="font-semibold text-white">
+          <p className="mt-8 max-w-2xl text-lg leading-relaxed text-zinc-300">
+            <span className="block text-pretty font-semibold text-white">
               AI made it easier to build products. It didn&apos;t make it
               easier to win customers.
-            </strong>{' '}
-            Learn what shapes customer decisions, then build a personalized
-            90-day go-to-market strategy to win the right customers and
-            drive sustainable growth.
+            </span>
+            <br />
+            <span className="block text-pretty">
+              Learn what shapes customer decisions, then build a
+              personalized 90-day go-to-market strategy to win the right
+              customers and drive sustainable growth.
+            </span>
           </p>
 
-          <div className="mt-8 flex flex-wrap items-center gap-4">
+          <div className="mt-6 flex items-center gap-2 text-xs text-pretty text-zinc-500">
+            <Check className="size-3.5 shrink-0 text-accent" aria-hidden="true" />
+            <span>
+              Built on go-to-market experience from TikTok &bull; Spotify
+              &bull; Walmart Connect &bull; HYPEBEAST
+            </span>
+          </div>
+
+          <div className="mt-6 flex flex-wrap items-center gap-4">
             <a
               href="https://buy.stripe.com/aFadR9dRr6zIfpf4kS4Ni04"
               target="_blank"
@@ -75,7 +86,8 @@ export function Hero() {
           </div>
 
           <p className="mt-4 font-mono text-xs tracking-widest text-pretty text-zinc-500 uppercase">
-            One-time payment &bull; Lifetime access &bull; Instant entry
+            One-time payment &bull; Lifetime access &bull; Future updates
+            included
           </p>
         </div>
 
@@ -93,13 +105,6 @@ export function Hero() {
             </div>
           </TiltCard>
         </div>
-      </div>
-
-      <div className="relative mx-auto max-w-3xl border-t border-white/10 px-6 pb-16 text-center">
-        <p className="pt-8 font-mono text-xs tracking-widest text-pretty text-zinc-500 uppercase">
-          Built by Wadnes J. Castelly (Ex-TikTok, Spotify, &amp; HYPEBEAST
-          Marketer)
-        </p>
       </div>
     </section>
   )

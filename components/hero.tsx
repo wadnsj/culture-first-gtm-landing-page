@@ -45,11 +45,13 @@ export function Hero() {
           </h1>
 
           <p className="mt-8 max-w-2xl text-lg leading-relaxed text-pretty text-zinc-300">
-            A self-paced video course that helps early-stage founders and
-            first-time entrepreneurs understand what shapes customer
-            decisions, then turn those insights into a personalized
-            strategy they can confidently execute to win the right
-            customers and drive sustainable growth.
+            <strong className="font-semibold text-white">
+              AI made it easier to build products. It didn&apos;t make it
+              easier to win customers.
+            </strong>{' '}
+            Learn what shapes customer decisions, then build a personalized
+            90-day go-to-market strategy to win the right customers and
+            drive sustainable growth.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-4">

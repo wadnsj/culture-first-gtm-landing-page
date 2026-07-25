@@ -44,7 +44,7 @@ export function Hero() {
             </span>
           </h1>
 
-          <p className="mt-8 max-w-2xl text-lg leading-relaxed text-zinc-300">
+          <p className="mt-8 max-w-2xl text-base leading-relaxed text-zinc-300 sm:text-lg lg:text-xl">
             <span className="block text-pretty font-semibold text-white">
               AI made it easier to build products. It didn&apos;t make it
               easier to win customers.
@@ -52,8 +52,9 @@ export function Hero() {
             <br />
             <span className="block text-pretty">
               Learn what shapes customer decisions, then build a
-              personalized GTM strategy so you know exactly where to focus
-              your time, energy, and resources to win the right customers.
+              personalized go-to-market strategy so you know exactly where
+              to focus your time, energy, and resources to win the right
+              customers.
             </span>
           </p>
 

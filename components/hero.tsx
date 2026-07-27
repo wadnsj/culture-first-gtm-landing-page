@@ -24,13 +24,13 @@ export function Hero() {
         className="dot-grid pointer-events-none absolute top-24 right-0 h-64 w-64 text-white/10"
       />
 
-      <div className="relative mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-6 py-20 lg:grid-cols-12 lg:px-12">
-        <div className="lg:col-span-7">
+      <div className="relative mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-6 py-6 sm:py-12 lg:grid-cols-12 lg:px-12">
+        <div className="space-y-3 sm:space-y-4 lg:col-span-7">
           <span className="inline-flex items-center gap-2 font-mono text-xs font-medium tracking-[0.3em] text-pretty text-zinc-500 uppercase">
             <span className="size-1.5 rounded-full bg-accent" />
             Self-Paced Video Course for Early-Stage Founders
           </span>
-          <h1 className="mt-8 max-w-xl text-[38px] leading-[1.08] font-bold tracking-tight text-white min-[390px]:text-[42px] sm:text-5xl lg:text-6xl">
+          <h1 className="max-w-xl text-[38px] leading-[1.08] font-bold tracking-tight text-white min-[390px]:text-[42px] sm:text-5xl lg:text-6xl">
             Build Your Personalized
             <br />
             90-Day GTM
@@ -44,7 +44,7 @@ export function Hero() {
             </span>
           </h1>
 
-          <p className="mt-8 max-w-2xl text-base leading-relaxed text-zinc-300 sm:text-lg lg:text-xl">
+          <p className="max-w-2xl text-base leading-relaxed text-zinc-300 sm:text-lg lg:text-xl">
             <span className="block text-pretty font-semibold text-white">
               AI made it easier to build products. It didn&apos;t make it
               easier to win customers.
@@ -58,15 +58,7 @@ export function Hero() {
             </span>
           </p>
 
-          <div className="mt-6 flex items-center gap-2 text-xs text-pretty text-zinc-500">
-            <Check className="size-3.5 shrink-0 text-accent" aria-hidden="true" />
-            <span>
-              Built on go-to-market experience from TikTok &bull; Spotify
-              &bull; Walmart Connect &bull; HYPEBEAST
-            </span>
-          </div>
-
-          <div className="mt-6 flex flex-wrap items-center gap-4">
+          <div className="flex flex-wrap items-center gap-4">
             <a
               href="https://buy.stripe.com/aFadR9dRr6zIfpf4kS4Ni04"
               target="_blank"
@@ -86,7 +78,15 @@ export function Hero() {
             </a>
           </div>
 
-          <p className="mt-4 font-mono text-xs tracking-widest text-pretty text-zinc-500 uppercase">
+          <div className="flex items-center gap-2 text-xs text-pretty text-zinc-500">
+            <Check className="size-3.5 shrink-0 text-accent" aria-hidden="true" />
+            <span>
+              Built on go-to-market experience from TikTok &bull; Spotify
+              &bull; Walmart Connect &bull; HYPEBEAST
+            </span>
+          </div>
+
+          <p className="font-mono text-xs tracking-widest text-pretty text-zinc-500 uppercase">
             One-time payment &bull; Lifetime access &bull; Future updates
             included
           </p>

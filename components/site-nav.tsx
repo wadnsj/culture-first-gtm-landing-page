@@ -1,4 +1,7 @@
+'use client'
+
 import Link from 'next/link'
+import { useEffect, useState } from 'react'
 
 const links = [
   { href: '#system', label: 'The System' },
@@ -7,8 +10,25 @@ const links = [
 ]
 
 export function SiteNav() {
+  const [visible, setVisible] = useState(false)
+
+  useEffect(() => {
+    function handleScroll() {
+      setVisible(window.scrollY > 400)
+    }
+    handleScroll()
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-border bg-background/80 backdrop-blur-md">
+    <header
+      className={`fixed inset-x-0 top-0 z-50 border-b border-border bg-background/80 backdrop-blur-md transition-all duration-300 ${
+        visible
+          ? 'translate-y-0 opacity-100'
+          : 'pointer-events-none -translate-y-full opacity-0'
+      }`}
+    >
       <nav
         aria-label="Main navigation"
         className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3 lg:px-12"

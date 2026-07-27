@@ -39,6 +39,7 @@ export type Module = {
   name: string
   deliverable: string
   handbookPurpose: string
+  strategicQuestion: string
   accent: string
   icon: LucideIcon
   assetTitle: string
@@ -54,7 +55,8 @@ export const MODULES: Module[] = [
     name: 'Culture',
     deliverable: 'Cultural Identity Map',
     handbookPurpose:
-      'Turn customer observations into a clear map of the beliefs, values, and motivations shaping buying decisions.',
+      'Uncover the cultural identities that shape how your market evaluates, trusts, and chooses products.',
+    strategicQuestion: "Why aren't customers choosing us?",
     accent: 'var(--accent)',
     icon: Users,
     assetTitle: 'Cultural Identity Map',
@@ -63,48 +65,51 @@ export const MODULES: Module[] = [
     assetPurpose:
       "Map your customer's cultural position and strategic territory.",
     assetIncludes: [
-      { name: 'Customer Identity Profiles', category: 'Worksheet' },
       { name: 'Customer Interviews', category: 'Guide' },
       { name: 'Beliefs & Values', category: 'Worksheet' },
+      { name: 'Identity Signals', category: 'Worksheet' },
       { name: 'Buying Triggers', category: 'Playbook' },
     ],
   },
   {
     number: '02',
     name: 'Meaning',
-    deliverable: 'Positioning and Pricing Foundation',
+    deliverable: 'Positioning & Pricing Foundation',
     handbookPurpose:
-      'Turn customer understanding into positioning and pricing that reflects why customers choose one option over another.',
+      'Define the value your product creates and position it around what matters most to your ideal customers.',
+    strategicQuestion: 'What makes our product worth choosing?',
     accent: '#2563eb',
     icon: Compass,
-    assetTitle: 'Positioning and Pricing Foundation',
+    assetTitle: 'Positioning & Pricing Foundation',
     assetLabel: 'Customer Intelligence Binder',
     assetIcon: BookOpen,
     assetPurpose: "Organize everything you've learned about your customer.",
     assetIncludes: [
-      { name: 'Jobs to Be Done', category: 'Framework' },
-      { name: 'Positioning Statements', category: 'AI Prompt' },
-      { name: 'Pricing Framework', category: 'Framework' },
+      { name: 'Customer Jobs', category: 'Framework' },
+      { name: 'Value Drivers', category: 'Worksheet' },
+      { name: 'Positioning Strategy', category: 'Framework' },
+      { name: 'Pricing Strategy', category: 'Framework' },
     ],
   },
   {
     number: '03',
     name: 'Connection',
-    deliverable: 'Messaging and Narrative Kit',
+    deliverable: 'Messaging & Narrative Kit',
     handbookPurpose:
-      'Turn cultural insight into messaging and narrative that resonates in your own voice at every touchpoint.',
+      'Turn your positioning into messaging that customers instantly understand, remember, and act on.',
+    strategicQuestion: 'How do we make our value impossible to ignore?',
     accent: '#16a34a',
     icon: MessageCircle,
-    assetTitle: 'Messaging and Narrative Kit',
+    assetTitle: 'Messaging & Narrative Kit',
     assetLabel: 'Premium Toolkit Case',
     assetIcon: Briefcase,
     assetPurpose:
       'Build the messaging system that turns understanding into connection.',
     assetIncludes: [
       { name: 'Messaging Framework', category: 'Framework' },
-      { name: 'Narrative Framework', category: 'Framework' },
       { name: 'Value Proposition', category: 'Template' },
-      { name: 'Story Templates', category: 'Template' },
+      { name: 'Brand Narrative', category: 'Framework' },
+      { name: 'Storytelling', category: 'Guide' },
     ],
   },
   {
@@ -112,7 +117,8 @@ export const MODULES: Module[] = [
     name: 'Differentiation',
     deliverable: 'Differentiation Strategy',
     handbookPurpose:
-      'Focus your differentiated advantage so you become the obvious choice instead of competing on price.',
+      'Create a differentiated strategy that gives customers a compelling reason to choose you over every alternative.',
+    strategicQuestion: 'How do we become the obvious choice?',
     accent: '#7c3aed',
     icon: Gem,
     assetTitle: 'Differentiation Strategy',
@@ -120,23 +126,32 @@ export const MODULES: Module[] = [
     assetIcon: Award,
     assetPurpose: 'Build everything required to become the obvious choice.',
     assetIncludes: [
-      { name: 'Positioning Framework', category: 'Framework' },
       { name: 'Competitive Analysis', category: 'Guide' },
+      { name: 'Category Positioning', category: 'Framework' },
       { name: 'Offer Design', category: 'Playbook' },
+      { name: 'Beachhead Market', category: 'Worksheet' },
     ],
   },
   {
     number: '05',
     name: 'Growth',
-    deliverable: 'Growth Engine and GTM Blueprint',
+    deliverable: 'Growth Engine & GTM Blueprint',
     handbookPurpose:
-      'Turn preference into a repeatable, compounding growth engine and your full 90-day GTM blueprint.',
+      'Build a repeatable go-to-market system that consistently attracts, converts, and retains the right customers.',
+    strategicQuestion:
+      'How do we consistently grow without relying on the founder?',
     accent: '#ea580c',
     icon: TrendingUp,
-    assetTitle: 'Growth Engine and GTM Blueprint',
+    assetTitle: 'Growth Engine & GTM Blueprint',
     assetLabel: 'Executive Growth Loop Diagram',
     assetIcon: Repeat,
     assetPurpose:
       'Design the repeatable operating loop that keeps your strategy learning and improving over time.',
+    assetIncludes: [
+      { name: 'GTM Blueprint', category: 'Playbook' },
+      { name: 'Launch Strategy', category: 'Playbook' },
+      { name: 'Growth Loops', category: 'Framework' },
+      { name: 'Success Metrics', category: 'Worksheet' },
+    ],
   },
 ]

@@ -250,10 +250,13 @@ function AssetRow({ module, index }: { module: Module; index: number }) {
           className="font-mono text-xs font-semibold tracking-widest uppercase"
           style={{ color: module.accent }}
         >
-          {module.name}
+          Module {index + 1}: {module.name.toUpperCase()}
         </span>
+        <p className="mt-3 text-sm leading-snug font-medium text-pretty text-zinc-500 italic">
+          &ldquo;{module.strategicQuestion}&rdquo;
+        </p>
         <h3 className="mt-3 text-2xl leading-snug font-bold tracking-tight text-balance text-zinc-900 sm:text-3xl">
-          Module {index + 1}: Build Your {module.assetTitle}
+          Build Your {module.assetTitle}
         </h3>
         <p className="mt-3 max-w-md text-sm leading-relaxed text-pretty text-zinc-600">
           {module.handbookPurpose}

@@ -1,6 +1,7 @@
 import { ChevronDown } from 'lucide-react'
 
-import { CATEGORY_COLORS, MODULES, type Module } from '@/lib/modules'
+import { LAWS } from '@/components/five-laws-section'
+import { MODULES, type Module } from '@/lib/modules'
 
 function CultureCanvas({ module }: { module: Module }) {
   const cells = [
@@ -250,44 +251,52 @@ function AssetRow({ module, index }: { module: Module; index: number }) {
           className="font-mono text-xs font-semibold tracking-widest uppercase"
           style={{ color: module.accent }}
         >
-          Law #{index + 1} &bull; Module {index + 1}
+          {module.emoji} Law #{index + 1} &bull; {module.name.toUpperCase()}{' '}
+          &bull; Module {index + 1}
         </span>
         <p className="mt-3 text-sm leading-snug font-medium text-pretty text-zinc-500 italic">
-          &ldquo;{module.strategicQuestion}&rdquo;
+          &ldquo;{module.founderQuestion}&rdquo;
         </p>
         <h3 className="mt-3 text-2xl leading-snug font-bold tracking-tight text-balance text-zinc-900 sm:text-3xl">
           Build Your {module.assetTitle}
         </h3>
         <p className="mt-3 max-w-md text-sm leading-relaxed text-pretty text-zinc-600">
-          {module.handbookPurpose}
+          {module.description}
         </p>
 
         <div className="mt-5 inline-flex items-center gap-2 rounded-full bg-zinc-900 px-4 py-2">
           <span className="font-mono text-[10px] font-semibold tracking-widest text-white/50 uppercase">
-            You leave with
+            Outcome
           </span>
           <span className="text-sm font-semibold text-white">
-            {module.assetTitle}
+            {module.outcome}
           </span>
         </div>
 
-        {module.assetIncludes && (
-          <ul className="mt-5 flex flex-wrap gap-1.5">
-            {module.assetIncludes.map((item) => (
+        <div className="mt-5">
+          <p className="font-mono text-[10px] font-semibold tracking-widest text-zinc-400 uppercase">
+            You&apos;ll Build
+          </p>
+          <ul className="mt-2 flex flex-wrap gap-1.5">
+            {module.youllBuild.map((item) => (
               <li
-                key={item.name}
+                key={item}
                 className="rounded-full border px-2.5 py-1 text-[11px] leading-none font-semibold"
                 style={{
-                  backgroundColor: `color-mix(in oklch, ${CATEGORY_COLORS[item.category]} 14%, white)`,
-                  borderColor: `color-mix(in oklch, ${CATEGORY_COLORS[item.category]} 30%, transparent)`,
-                  color: CATEGORY_COLORS[item.category],
+                  backgroundColor: `color-mix(in oklch, ${module.accent} 14%, white)`,
+                  borderColor: `color-mix(in oklch, ${module.accent} 30%, transparent)`,
+                  color: module.accent,
                 }}
               >
-                {item.name}
+                {item}
               </li>
             ))}
           </ul>
-        )}
+        </div>
+
+        <p className="mt-5 max-w-md border-t border-zinc-100 pt-4 text-xs leading-relaxed text-pretty text-zinc-500">
+          Applies GTM Law #{index + 1}: {LAWS[index].statement}
+        </p>
       </div>
     </div>
   )
@@ -315,10 +324,9 @@ export function BuildAssetsSection() {
           a time.
         </h2>
         <p className="mt-5 max-w-xl leading-relaxed text-pretty text-zinc-600">
-          Each module builds a different part of your strategy. By the end
-          of the course, you&apos;ll have a complete go-to-market blueprint
-          you can use to launch, grow, or evolve your business with
-          confidence.
+          Each module helps you apply one Culture-First GTM Law by building
+          a strategic asset that becomes part of your personalized 90-day
+          GTM strategy.
         </p>
 
         <div className="mt-8">

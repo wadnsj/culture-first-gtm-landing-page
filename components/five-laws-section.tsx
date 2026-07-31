@@ -1,10 +1,10 @@
-type Law = {
+export type Law = {
   number: number
   statement: string
   explanation: string
 }
 
-const LAWS: Law[] = [
+export const LAWS: Law[] = [
   {
     number: 1,
     statement: "Features don't make people move. Identity does.",

@@ -1,6 +1,6 @@
 import { SiteNav } from '@/components/site-nav'
 import { Hero } from '@/components/hero'
-import { BigIdeaSection } from '@/components/big-idea-section'
+import { FiveLawsSection } from '@/components/five-laws-section'
 import { WhatYoullLeaveWithSection } from '@/components/what-youll-leave-with-section'
 import { BuildAssetsSection } from '@/components/build-assets-section'
 import { InstructorSection } from '@/components/instructor-section'
@@ -15,7 +15,7 @@ export default function Page() {
       <SiteNav />
       <main>
         <Hero />
-        <BigIdeaSection />
+        <FiveLawsSection />
         <WhatYoullLeaveWithSection />
         <BuildAssetsSection />
         <InstructorSection />

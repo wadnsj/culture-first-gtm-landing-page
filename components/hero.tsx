@@ -30,18 +30,18 @@ export function Hero() {
             <span className="size-1.5 rounded-full bg-accent" />
             Self-Paced Video Course for Early-Stage Founders
           </span>
-          <h1 className="max-w-xl text-[38px] leading-[1.08] font-bold tracking-tight text-white min-[390px]:text-[42px] sm:text-5xl lg:text-6xl">
-            Build Your Personalized
-            <br />
-            90-Day GTM
-            <br />
+          <h1 className="max-w-xl text-3xl leading-tight font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
+            Become the{' '}
             <span className="relative inline-block font-extrabold">
-              <span className="relative z-10 text-amber-400">Strategy</span>
+              <span className="relative z-10 text-amber-400">
+                Obvious Choice
+              </span>
               <span
                 aria-hidden="true"
                 className="absolute inset-x-0 bottom-1 z-0 h-4 bg-accent/60"
               />
-            </span>
+            </span>{' '}
+            for the Right Customers
           </h1>
 
           <p className="max-w-2xl text-base leading-relaxed text-zinc-300 sm:text-lg lg:text-xl">
@@ -51,10 +51,9 @@ export function Hero() {
             </span>
             <br />
             <span className="block text-pretty">
-              Learn what shapes customer decisions, then build a
-              personalized go-to-market strategy so you know exactly where
-              to focus your time, energy, and resources to win the right
-              customers.
+              Build your personalized 90-day GTM strategy by understanding
+              the shared beliefs, values, and identities that shape how
+              customers evaluate, trust, and choose businesses.
             </span>
           </p>
 

@@ -116,7 +116,8 @@ export function PricingSection() {
               <span className="font-mono text-sm text-muted-foreground">USD</span>
             </div>
             <p className="mt-2 font-mono text-xs text-muted-foreground">
-              ONE PAYMENT / LIFETIME ACCESS / FUTURE UPDATES INCLUDED
+              ONE-TIME PAYMENT &bull; LIFETIME ACCESS &bull; FUTURE UPDATES
+              INCLUDED
             </p>
           </div>
           <a
@@ -125,13 +126,14 @@ export function PricingSection() {
             rel="noopener noreferrer"
             className="group mt-8 flex items-center justify-center gap-2 rounded-full bg-primary py-3 pr-3 pl-6 text-sm font-semibold text-primary-foreground transition-transform hover:-translate-y-0.5"
           >
-            Get Instant Access
+            Get Instant Access for $350
             <span className="flex size-8 items-center justify-center rounded-full bg-accent text-accent-foreground">
               <ArrowUpRight className="size-4" aria-hidden="true" />
             </span>
           </a>
           <p className="mt-4 text-center font-mono text-xs text-muted-foreground">
-            LIFETIME ACCESS / DOWNLOADABLE TEMPLATES / PRACTICAL ASSIGNMENTS
+            LIFETIME ACCESS &bull; DOWNLOADABLE TEMPLATES &bull; PRACTICAL
+            ASSIGNMENTS
           </p>
         </div>
       </div>

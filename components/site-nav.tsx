@@ -61,7 +61,7 @@ export function SiteNav() {
         >
           Get Access
           <span className="font-mono text-xs font-normal text-primary-foreground/60">
-            $350
+            - $350 One-Time
           </span>
         </a>
       </nav>

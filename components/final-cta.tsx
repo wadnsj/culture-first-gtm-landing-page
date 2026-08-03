@@ -32,7 +32,7 @@ export function FinalCta() {
             >
               Get Instant Access
               <span className="font-mono text-xs font-normal text-black/50">
-                $350 USD
+                $350 One-Time
               </span>
               <span className="flex size-8 items-center justify-center rounded-full bg-black/15 text-accent-foreground">
                 <ArrowUpRight className="size-4" aria-hidden="true" />

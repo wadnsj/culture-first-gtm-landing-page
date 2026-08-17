@@ -38,7 +38,7 @@ export const MODULES: Module[] = [
     description:
       "Identify the specific customers most likely to choose your product first, define the beachhead market you'll win first, and position your business around what matters most to them.",
     youllBuild: ['Early Customer Blueprint', 'Positioning Foundation'],
-    outcome: "Define the first market you'll win before expanding into larger ones.",
+    outcome: 'Win your first market.',
   },
   {
     number: '03',

@@ -36,9 +36,9 @@ export const MODULES: Module[] = [
     founderQuestion: 'Who is most likely to choose our product first?',
     assetTitle: 'Positioning Foundation',
     description:
-      'Identify your earliest customers, understand what your product means to them, and position your business accordingly.',
+      'Identify the specific customers most likely to choose your product first, define your beachhead market, and position your business around what matters most to them.',
     youllBuild: ['Early Customer Blueprint', 'Positioning Foundation'],
-    outcome: 'Know who to position your product for.',
+    outcome: "Define the first market you'll win before expanding into larger ones.",
   },
   {
     number: '03',

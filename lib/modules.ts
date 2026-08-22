@@ -16,7 +16,7 @@ export const MODULES: Module[] = [
     name: 'Culture',
     emoji: '🟡',
     accent: 'var(--accent)',
-    founderQuestion: "Why aren't customers choosing us?",
+    founderQuestion: 'Why should customers choose us?',
     assetTitle: 'Cultural Identity Map',
     description:
       'Uncover the cultural identities that shape how your market evaluates, trusts, and chooses products.',

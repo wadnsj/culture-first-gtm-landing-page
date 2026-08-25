@@ -42,7 +42,7 @@ export function FiveLawsSection() {
     <section className="relative overflow-hidden border-t border-white/10 bg-[#0A0A0B] px-6 py-24 text-white lg:px-12">
       <div className="mx-auto max-w-2xl text-center">
         <span className="font-mono text-xs tracking-widest text-accent uppercase">
-          / The Foundation
+          / The Strategy Behind the System
         </span>
         <h2 className="mx-auto mt-6 max-w-xl text-4xl leading-[1.05] font-bold text-balance md:text-5xl">
           The Five Culture-First GTM Laws

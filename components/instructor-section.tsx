@@ -1,3 +1,4 @@
+import { Check, Play } from 'lucide-react'
 import Image from 'next/image'
 
 export function InstructorSection() {
@@ -5,7 +6,7 @@ export function InstructorSection() {
     <section id="proof" className="border-t border-zinc-200 bg-white px-6 py-24 text-zinc-900 lg:px-12">
       <div className="mx-auto max-w-6xl">
         <span className="font-mono text-xs tracking-widest text-accent uppercase">
-          / Meet Your Instructor
+          / Why I Built This
         </span>
 
         <div className="mt-10 grid gap-12 lg:grid-cols-5">
@@ -32,6 +33,32 @@ export function InstructorSection() {
               Built on lessons from bringing products to market at TikTok,
               Spotify, Walmart Connect, and HYPEBEAST.
             </h2>
+
+            <button
+              type="button"
+              aria-label="Play: Why I Built the Culture-First GTM System"
+              className="group relative mt-6 flex aspect-video w-full max-w-xl items-center justify-center overflow-hidden rounded-2xl bg-zinc-900"
+            >
+              <div
+                aria-hidden="true"
+                className="pointer-events-none absolute inset-0 opacity-40"
+                style={{
+                  backgroundImage:
+                    'linear-gradient(to right, rgba(255,255,255,0.08) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.08) 1px, transparent 1px)',
+                  backgroundSize: '2.5rem 2.5rem',
+                }}
+              />
+              <span className="relative z-10 flex size-16 items-center justify-center rounded-full bg-accent text-accent-foreground transition-transform group-hover:scale-105">
+                <Play className="size-6 fill-current" aria-hidden="true" />
+              </span>
+              <span className="absolute bottom-4 left-4 font-mono text-xs font-semibold tracking-widest text-white/70 uppercase">
+                Why I Built the Culture-First GTM System
+              </span>
+              <span className="absolute right-4 bottom-4 rounded-full bg-black/40 px-2.5 py-1 font-mono text-[10px] font-semibold text-white/70">
+                0:60
+              </span>
+            </button>
+
             <div className="mt-6 max-w-xl space-y-4 text-base leading-relaxed text-pretty text-zinc-600">
               <p>
                 Hi, I&apos;m Wadnes Castelly. Over the last decade,
@@ -51,6 +78,17 @@ export function InstructorSection() {
                 something they uncover.&rdquo;
               </p>
             </blockquote>
+
+            <div className="mt-6 flex items-center gap-2 text-xs text-pretty text-zinc-500">
+              <Check
+                className="size-3.5 shrink-0 text-accent"
+                aria-hidden="true"
+              />
+              <span>
+                Built on go-to-market experience from TikTok &bull; Spotify
+                &bull; Walmart Connect &bull; HYPEBEAST
+              </span>
+            </div>
           </div>
         </div>
       </div>

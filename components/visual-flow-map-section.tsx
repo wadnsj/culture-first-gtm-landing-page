@@ -3,11 +3,13 @@ import { ArrowDown, ArrowRight } from 'lucide-react'
 import { MODULES } from '@/lib/modules'
 
 const STEP_WHY: Record<string, string> = {
-  Culture: 'Understand why customers choose',
-  Meaning: "Decide who to win first and why you're worth choosing",
-  Connection: 'Turn your positioning into messaging customers understand',
-  Differentiation: 'Give customers a reason to choose you instead',
-  Growth: 'Turn what works into a repeatable system',
+  Culture: 'Understand the real reason customers choose',
+  Meaning: 'Decide who you are for and why they should care',
+  Connection:
+    'Turn your positioning into messaging that actually resonates',
+  Differentiation:
+    'Give customers a compelling reason to choose you over everyone else',
+  Growth: 'Turn what works into a repeatable and scalable system',
 }
 
 export function VisualFlowMapSection() {

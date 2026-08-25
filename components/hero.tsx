@@ -51,9 +51,14 @@ export function Hero() {
             </span>
             <br />
             <span className="block text-pretty">
+              Reaching more people isn&apos;t your problem. Being more
+              relevant to the right people is.
+            </span>
+            <br />
+            <span className="block text-pretty">
               Build your personalized 90-day GTM strategy by understanding
-              the shared beliefs, values, and identities that shape how
-              customers evaluate, trust, and choose businesses.
+              culture: the shared beliefs, values, and identities that shape
+              how customers evaluate, trust, and choose businesses.
             </span>
           </p>
 
@@ -77,6 +82,11 @@ export function Hero() {
             </a>
           </div>
 
+          <p className="font-mono text-xs tracking-widest text-pretty text-zinc-500 uppercase">
+            One-time payment &bull; Lifetime access &bull; Future updates
+            included
+          </p>
+
           <div className="flex items-center gap-2 text-xs text-pretty text-zinc-500">
             <Check className="size-3.5 shrink-0 text-accent" aria-hidden="true" />
             <span>
@@ -84,11 +94,6 @@ export function Hero() {
               &bull; Walmart Connect &bull; HYPEBEAST
             </span>
           </div>
-
-          <p className="font-mono text-xs tracking-widest text-pretty text-zinc-500 uppercase">
-            One-time payment &bull; Lifetime access &bull; Future updates
-            included
-          </p>
         </div>
 
         <div className="flex items-center justify-center lg:col-span-5">

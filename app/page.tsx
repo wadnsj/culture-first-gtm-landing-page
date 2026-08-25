@@ -4,6 +4,7 @@ import { WhatYoullLeaveWithSection } from '@/components/what-youll-leave-with-se
 import { VisualFlowMapSection } from '@/components/visual-flow-map-section'
 import { BuildAssetsSection } from '@/components/build-assets-section'
 import { FiveLawsSection } from '@/components/five-laws-section'
+import { WhyCultureVideoSection } from '@/components/why-culture-video-section'
 import { InstructorSection } from '@/components/instructor-section'
 import { TestimonialsSection } from '@/components/testimonials-section'
 import { PricingSection } from '@/components/pricing-section'
@@ -20,6 +21,7 @@ export default function Page() {
         <VisualFlowMapSection />
         <BuildAssetsSection />
         <FiveLawsSection />
+        <WhyCultureVideoSection />
         <InstructorSection />
         <TestimonialsSection />
         <PricingSection />

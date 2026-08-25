@@ -51,14 +51,9 @@ export function Hero() {
             </span>
             <br />
             <span className="block text-pretty">
-              Reaching more people isn&apos;t your problem. Being more
-              relevant to the right people is.
-            </span>
-            <br />
-            <span className="block text-pretty">
               Build your personalized 90-day GTM strategy by understanding
-              culture: the shared beliefs, values, and identities that shape
-              how customers evaluate, trust, and choose businesses.
+              the shared beliefs, values, and identities that shape how
+              customers evaluate, trust, and choose businesses.
             </span>
           </p>
 

@@ -50,7 +50,7 @@ export function PricingSection() {
           <p className="mt-6 max-w-md leading-relaxed text-muted-foreground text-pretty">
             Piecing this together yourself means hiring a brand strategist, a
             customer researcher, a positioning consultant, and a growth advisor
-            - easily north of $15,000. The Culture-First GTM System gives
+            - easily north of $16,000. The Culture-First GTM System gives
             you the same strategic foundation as a complete operating system,
             for one payment.
           </p>

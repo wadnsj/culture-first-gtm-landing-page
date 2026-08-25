@@ -112,7 +112,7 @@ export function PricingSection() {
           </div>
           <div className="mt-4">
             <div className="flex items-baseline gap-2">
-              <p className="text-6xl font-bold tracking-tight">$350</p>
+              <p className="text-6xl font-bold tracking-tight">$375</p>
               <span className="font-mono text-sm text-muted-foreground">USD</span>
             </div>
             <p className="mt-2 font-mono text-xs text-muted-foreground">
@@ -126,7 +126,7 @@ export function PricingSection() {
             rel="noopener noreferrer"
             className="group mt-8 flex items-center justify-center gap-2 rounded-full bg-primary py-3 pr-3 pl-6 text-sm font-semibold text-primary-foreground transition-transform hover:-translate-y-0.5"
           >
-            Get Instant Access for $350
+            Get Instant Access for $375
             <span className="flex size-8 items-center justify-center rounded-full bg-accent text-accent-foreground">
               <ArrowUpRight className="size-4" aria-hidden="true" />
             </span>
